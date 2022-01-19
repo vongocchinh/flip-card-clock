@@ -18,11 +18,11 @@ export default function Router() {
 
   return (
     <>
-      <Route exact path="/login" component={Login} />
-      <Route exact path="/register" component={Register} />
+      <Route exact path="/" component={TodoList} />
+      {/* <Route exact path="/register" component={Register} />
       <PrivateRoute exact component={TodoList} path="/" />
       <PrivateRoute exact component={EditTodo} path="/edit/:id" />
-      <PrivateRoute exact component={AddTodo} path="/add" />
+      <PrivateRoute exact component={AddTodo} path="/add" /> */}
     </>
   );
 }

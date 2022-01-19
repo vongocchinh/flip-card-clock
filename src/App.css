@@ -1,0 +1,14 @@
+.acitve{
+    color: blue;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    list-style-type: none;
+}
+.dis{
+    cursor: default;
+}
